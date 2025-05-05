@@ -15,7 +15,7 @@ function searchTarget(arr, x) {
         }
     }
 
-    return -1; // not found
+    return -1; 
 }
 
 // Example usage
