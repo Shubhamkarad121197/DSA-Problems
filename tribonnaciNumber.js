@@ -1,0 +1,14 @@
+function tribonacci(n) {
+    if(n==0){
+        return 0;
+    }
+     if(n==1 || n==2){
+        return 1;
+    }
+     
+    return tribonacci(n-1) + tribonacci(n-2) + tribonacci(n-3)
+}
+console.log(tribonacci(4))//4
+console.log(tribonacci(5))//7
+console.log(tribonacci(6))//13
+console.log(tribonacci(7))//24
