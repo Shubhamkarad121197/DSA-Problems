@@ -28,7 +28,6 @@ function pairOfUnsorted(arr,target){
             let diffIndex=indexMap.get(diff);
             return [Math.min(i,diffIndex),Math.max(i,diffIndex)]
         }
-        
         indexMap.set(arr[i],i)
     }
     return [];
