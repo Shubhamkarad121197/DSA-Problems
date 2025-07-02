@@ -50,15 +50,9 @@ class linkList{
             current=current.next;
         }
         console.log(result+'null')
-    }
-    
-    
-    
-    
+    }  
 }
-
 const ll=new linkList()
-
 ll.insertAtEnd(10)
 ll.insertAtEnd(20)
 ll.insertAtEnd(30)
